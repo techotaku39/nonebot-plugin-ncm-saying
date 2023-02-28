@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nonebot-plugin-ncm-saying"
+version = "0.1.0"
+description = "一开口就老网抑云了"
+authors = ["Ananovo <techotaku39@outlook.com>"]
+readme = "README.md"
+packages = [{include = "nonebot_plugin_ncm_saying"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = "^2.0.0b2"
+nonebot-adapter-onebot = "^2.0.0b1"
+httpx = "^0.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
